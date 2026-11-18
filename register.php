@@ -12,9 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($name && $blood_group && $city && $phone) {
         $sql = "INSERT INTO donors (name, blood_group, city, area, phone, last_donated) VALUES (?, ?, ?, ?, ?, ?)";
-        $stmt = $pdo->prepare($sql);
-        $stmt->execute([$name, $blood_group, $city, $area, $phone, $last_donated]);
-        
+        $stmt = $conn->prepare($sql);
+$stmt->bind_param("ssssss", $name, $blood_group, $city, $area, $phone, $last_donated);
+$stmt->execute();
         header("Location: index.php?registered=1#results");
         exit;
     } else {
