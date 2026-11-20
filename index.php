@@ -121,7 +121,7 @@ $requests = $requestsResult ? $requestsResult->fetch_all(MYSQLI_ASSOC) : [];
 
     <div class="section-header">
       <h2>🚨 Urgent Blood Requests</h2>
-      <a href="request.php" style="color:#dc2626; font-weight:600;">+ New Request Karein →</a>
+      <a href="request.php" style="color:#dc2626; font-weight:600;">+ Add New Request →</a>
     </div>
 
     <div class="donor-grid" id="donorGrid">

@@ -43,7 +43,7 @@ $stmt->execute();
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="find-donors.php">Find Donors</a></li>
+                    <li><a href="find _donors.php">Find Donors</a></li>
                     <li><a href="index.php#compatibility">Compatibility</a></li>
                     <li><a href="register.php" class="btn-primary" style="color:#fff;">Become a Donor</a></li>
                 </ul>
@@ -56,11 +56,7 @@ $stmt->execute();
             <span class="badge">Join Our Lifesaving Network</span>
             <h1>Join LifeTech: Save Lives in Your Community.</h1>
             <p>Register in under 60 seconds. Patients and hospitals in your city can reach you directly via Call or WhatsApp during critical emergencies.</p>
-            <ul class="perks-list">
-                <li>Direct emergency alerts from nearby families</li>
-                <li>100% voluntary, free, and community-driven</li>
-                <li>Update your availability status anytime</li>
-            </ul>
+            
         </div>
 
         <div class="form-card">
